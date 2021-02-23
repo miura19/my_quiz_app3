@@ -8,7 +8,8 @@
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@200;600&display=swap" rel="stylesheet">
-
+        <!-- CSS only -->
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-giJF6kkoqNQ00vy+HMDP7azOuL0xtbfIcaT9wjKHr8RbDVddVHyTfAAsrekwKmP1" crossorigin="anonymous">
         <!-- Styles -->
         <style>
             html, body {
@@ -45,7 +46,7 @@
             }
 
             .title {
-                font-size: 94px;
+                font-size: 70px;
             }
 
             .links > a {
@@ -68,6 +69,7 @@
         </style>
     </head>
     <body>
+    <div class="container">
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
@@ -90,5 +92,6 @@
                 <p class='producer'>produced by wataru</p>
             </div>
         </div>
-    </body>
+    </div>
+</body>
 </html>
