@@ -39,7 +39,7 @@
     </div>
     <div class="form-group">
       <label for="answer">正解の回答を選択肢の1~4の番号と同じテキストのように入力してね ♪</label>
-      <input type="text" name="answer" class="answer form-control"
+      <input type="text" name="answer" class="form-control"
       placeholder="HyperText Markup Language">
     </div>
     <div class="form-group">

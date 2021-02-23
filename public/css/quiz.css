@@ -26,15 +26,16 @@
 }
 
 #image_ok{
-  width:500px;
-  height: 250px;
-  margin: 0 auto;
+  width:100%;
+  max-width: 100%;
+  height: auto;
   margin-bottom: 32px;
 }
 
 #image_ng{
-  width:500px;
-  height: 250px;
+  width:100%;
+  max-width: 100%;
+  height: auto;
   margin: 0 auto;
   margin-bottom: 32px;
 }
