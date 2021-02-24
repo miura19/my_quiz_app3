@@ -28,6 +28,7 @@
 
   const category_name = @json($category_name);
   console.log(category_name);
+  console.log(quizzes);
 
   const question_number = ['第1問','第2問','第3問','第4問','第5問','第6問','第7問','第8問','第9問','第10問'];
   

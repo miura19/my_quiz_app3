@@ -15,7 +15,7 @@ class QuizController extends Controller
     {   
         
         $quizz = \App\Quiz::inRandomOrder()->take(10)->get();
-        $category_name = \App\Category::all()->toArray();//<--Categoryと紐付ける書き方てこずった。
+        $category_name = \App\Category::all();//<--Categoryと紐付ける書き方てこずった。
         return view('quiz.first',compact('quizz','category_name'));
     }
 
@@ -53,9 +53,6 @@ class QuizController extends Controller
 
             $answer = $request->input('answer');
 
-
-            // $test = $request->all();
-            // $test['answers'] = $answers;
             $validatedData = $request->validate([
                 'quizz_janre' => 'required',
                 'question' => 'required|string',
@@ -67,19 +64,7 @@ class QuizController extends Controller
                 'description' =>'required|string'
             ]);
             
-            // $validator = Validator::make($test,[
-                //     'quizz_janre' => 'required',
-                //     'question' => 'required|string',
-                //     'answer1' => 'required|string',
-                //     'answer2' => 'required|string',
-                //     'answer3' => 'required|string',
-                //     'answer4' => 'required|string',
-                //     'description' =>'required|string'
-                // ]);
-                
-                // if($validator->fails()){
-                    //     return redirect('/new');
-                    // } else{
+
             if(in_array($answer, $answers, true)
             ){
                 $quiz = new \App\Quiz;
