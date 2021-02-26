@@ -93,7 +93,6 @@ class QuizController extends Controller
     {
         $quizzes = \App\Quiz::all();
         $user_id = Auth::id();
-        dd($user_id);
         return view('quiz.list',compact('quizzes','user_id'));
     }
 

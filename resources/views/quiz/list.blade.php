@@ -14,7 +14,7 @@
     <tr>
       <td>{{ $quiz->id}}</td>
       <td>{{ $quiz->question}}</td>
-      @if($user_id === 1)
+      @if($user_id === 4)
         <td><a href="/edit/{{ $quiz->id }}">編集するよ ♪</a></td>
         <td><a href="/delete/{{ $quiz->id }}">削除するよ ♪ </a></td>
       @endif
