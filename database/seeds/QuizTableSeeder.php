@@ -15,7 +15,7 @@ class QuizTableSeeder extends Seeder
         $quizs =  [
             [
                 'question' => 'Googleが作ったフレームワークはどれ？',
-                'category_id' => '1',
+                'category_id' => '4',
                 'answer1' => 'Vue.js',
                 'answer2' => 'AngularJS',
                 'answer3' => 'React',
@@ -25,7 +25,7 @@ class QuizTableSeeder extends Seeder
             ],
             [
                 'question' => 'HTTP通信を行うためによく使われるライブラリはどれ？',
-                'category_id' => '1',
+                'category_id' => '4',
                 'answer1' => 'axios',
                 'answer2' => 'Lodash',
                 'answer3' => 'Moment.js',
@@ -35,7 +35,7 @@ class QuizTableSeeder extends Seeder
             ],
             [
                 'question' => 'JavaScript以外のプログラミング言語でフロントエンドを構築するための技術は何？',
-                'category_id' => '1',
+                'category_id' => '4',
                 'answer1' => 'web3.0',
                 'answer2' => 'NoCode',
                 'answer3' => 'WebAssembly',
@@ -45,7 +45,7 @@ class QuizTableSeeder extends Seeder
             ],
             [
                 'question' => '次のうち、最終的にJavaScriptにコンパイルされる言語でないものはどれ？',
-                'category_id' => '1',
+                'category_id' => '4',
                 'answer1' => 'TypeScript',
                 'answer2' => 'CoffeScript',
                 'answer3' => 'Dart',
@@ -55,7 +55,7 @@ class QuizTableSeeder extends Seeder
             ],
             [
                 'question' => '次のうち、TypeScriptの特徴でないものはどれ？',
-                'category_id' => '1',
+                'category_id' => '4',
                 'answer1' => '性的型付け言語である',
                 'answer2' => 'enumが使える',
                 'answer3' => 'JavaScriptのスーパーセットである',
@@ -65,7 +65,7 @@ class QuizTableSeeder extends Seeder
             ],
             [
                 'question' => '一般的にギターには何本の弦が張られている？',
-                'category_id' => '2',
+                'category_id' => '14',
                 'answer1' => '4本',
                 'answer2' => '3本',
                 'answer3' => '5本',
@@ -75,7 +75,7 @@ class QuizTableSeeder extends Seeder
             ],
             [
                 'question' => '3弦の開放弦の音は何？',
-                'category_id' => '2',
+                'category_id' => '14',
                 'answer1' => 'C',
                 'answer2' => 'E',
                 'answer3' => 'D',
@@ -85,7 +85,7 @@ class QuizTableSeeder extends Seeder
             ],
             [
                 'question' => 'ベース音と5度の2音だけを出すコードのことを何という？',
-                'category_id' => '2',
+                'category_id' => '14',
                 'answer1' => 'アッパーストラクチャー',
                 'answer2' => 'テンションコード',
                 'answer3' => 'パワーコード',
@@ -95,7 +95,7 @@ class QuizTableSeeder extends Seeder
             ],
             [
                 'question' => '布袋寅泰やJudy&MaryのTAKUYAが使うギターの種別は何？',
-                'category_id' => '2',
+                'category_id' => '14',
                 'answer1' => 'ストラトキャスター',
                 'answer2' => 'テレキャスター',
                 'answer3' => 'レスポール',
@@ -105,7 +105,7 @@ class QuizTableSeeder extends Seeder
             ],
             [
                 'question' => 'ピッキングせずに指を弦に押さえつけるだけで音を出す奏法を何という？',
-                'category_id' => '2',
+                'category_id' => '14',
                 'answer1' => 'ハンマリングオン',
                 'answer2' => 'プリングオフ',
                 'answer3' => 'チョーキング',
@@ -115,7 +115,7 @@ class QuizTableSeeder extends Seeder
             ],
             [
                 'question' => '世界で最初の世界遺産といえば？',
-                'category_id' => '3',
+                'category_id' => '24',
                 'answer1' => 'イエローストーン国立公園',
                 'answer2' => 'シミエン国立公園',
                 'answer3' => 'ナハニ国立公園',
@@ -125,7 +125,7 @@ class QuizTableSeeder extends Seeder
             ],
             [
                 'question' => 'ロシアにある透明度が世界一の湖といえば？',
-                'category_id' => '3',
+                'category_id' => '24',
                 'answer1' => 'ウユニ塩湖',
                 'answer2' => 'レトバ湖',
                 'answer3' => 'モレーン湖',
@@ -135,7 +135,7 @@ class QuizTableSeeder extends Seeder
             ],
             [
                 'question' => '日本の広島県にある世界遺産といえば原爆ドームですが、広島県のもう一つの世界遺産といえば？',
-                'category_id' => '3',
+                'category_id' => '24',
                 'answer1' => '三峯神社',
                 'answer2' => '熱田神宮',
                 'answer3' => '出雲大社',
@@ -145,7 +145,7 @@ class QuizTableSeeder extends Seeder
             ],
             [
                 'question' => '「イノベーション」の説明として正しいものを選べ',
-                'category_id' => '4',
+                'category_id' => '34',
                 'answer1' => '2声体の鍵盤楽曲',
                 'answer2' => '手を加えて良くすること',
                 'answer3' => '人が何かする際の動機づけ',
@@ -155,7 +155,7 @@ class QuizTableSeeder extends Seeder
             ],
             [
                 'question' => '次のうち「貸借対照表」の説明はどれ？',
-                'category_id' => '4',
+                'category_id' => '34',
                 'answer1' => '企業のある一定時点における資産、負債、純資産の状態を表すもの',
                 'answer2' => '企業のある一定期間における収益と費用の状態を表すもの',
                 'answer3' => '会計期間における資金の増減、つまり収入と支出を表示する',
@@ -165,7 +165,7 @@ class QuizTableSeeder extends Seeder
             ],
             [
                 'question' => '次のうち「資産」でないものはどれ？',
-                'category_id' => '4',
+                'category_id' => '34',
                 'answer1' => '現金',
                 'answer2' => '手形',
                 'answer3' => '借入金',
