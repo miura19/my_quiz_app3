@@ -76,7 +76,7 @@
       category.textContent = category_name[7].name;
     }else if(quizzes[0].category_id === 84){
       category.textContent = category_name[8].name;
-
+    }
     const question = document.getElementById('question');
     question.textContent = quizz.question;
 
