@@ -58,30 +58,24 @@
   //1問目のクイズの問題と選択肢を表示する
   const setUpQuiz = () =>{
     window.addEventListener('load',() =>{
-    if(quizzes[0].category_id === 1){
+    if(quizzes[0].category_id === 4){
     category.textContent = category_name[0].name;
-    // category.style.backgroundColor = '#89c3eb';
-    }else if(quizzes[0].category_id === 2){
+    }else if(quizzes[0].category_id === 14){
       category.textContent = category_name[1].name;
-    }else if(quizzes[0].category_id === 3){
+    }else if(quizzes[0].category_id === 24){
       category.textContent = category_name[2].name;
-    }else if(quizzes[0].category_id === 4){
+    }else if(quizzes[0].category_id === 34){
       category.textContent = category_name[3].name;
-    }else if(quizzes[0].category_id === 5){
+    }else if(quizzes[0].category_id === 44){
       category.textContent = category_name[4].name;  
-    }else if(quizzes[0].category_id === 6){
+    }else if(quizzes[0].category_id === 54){
       category.textContent = category_name[5].name;
-    }else if(quizzes[0].category_id === 5){
+    }else if(quizzes[0].category_id === 64){
       category.textContent = category_name[6].name;
-    }else if(quizzes[0].category_id === 6){
+    }else if(quizzes[0].category_id === 74){
       category.textContent = category_name[7].name;
-    }else if(quizzes[0].category_id === 7){
+    }else if(quizzes[0].category_id === 84){
       category.textContent = category_name[8].name;
-    }else if(quizzes[0].category_id === 8){
-      category.textContent = category_name[9].name;
-    }else if(quizzes[0].category_id === 9){
-      category.textContent = category_name[10].name;
-    }
 
     const question = document.getElementById('question');
     question.textContent = quizz.question;
@@ -128,23 +122,23 @@
 
     quiz_description.textContent = quizzes[now_quiz].description;
 
-    if(quizzes[now_quiz].category_id === 1){
+    if(quizzes[now_quiz].category_id === 4){
     category.textContent = category_name[0].name;
-    }else if(quizzes[now_quiz].category_id === 2){
+    }else if(quizzes[now_quiz].category_id === 14){
       category.textContent = category_name[1].name;
-    }else if(quizzes[now_quiz].category_id === 3){
+    }else if(quizzes[now_quiz].category_id === 24){
       category.textContent = category_name[2].name;
-    }else if(quizzes[now_quiz].category_id === 4){
+    }else if(quizzes[now_quiz].category_id === 34){
       category.textContent = category_name[3].name;
-    }else if(quizzes[now_quiz].category_id === 5){
+    }else if(quizzes[now_quiz].category_id === 44){
       category.textContent = category_name[4].name;
-    }else if(quizzes[now_quiz].category_id === 6){
+    }else if(quizzes[now_quiz].category_id === 54){
       category.textContent = category_name[5].name;
-    }else if(quizzes[now_quiz].category_id === 7){
+    }else if(quizzes[now_quiz].category_id === 64){
       category.textContent = category_name[6].name;
-    }else if(quizzes[now_quiz].category_id === 8){
+    }else if(quizzes[now_quiz].category_id === 74){
       category.textContent = category_name[7].name;
-    }else if(quizzes[now_quiz].category_id === 9){
+    }else if(quizzes[now_quiz].category_id === 84){
       category.textContent = category_name[8].name;
     }
 
