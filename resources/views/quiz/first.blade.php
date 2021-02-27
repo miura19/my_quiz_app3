@@ -156,9 +156,8 @@
   //回答が正解でも不正解でも、問題数(5問)になるまでnextQuiz()を呼び出す。正解だったらscore++する。
   answer1.addEventListener('click',()=>{
     if(quizzes[now_quiz].answer1 === quizzes[now_quiz].answer){
-      score++;
       if(confirm('この回答で本当によろしいですか？')){
-      if(image_ok.style.display ="none",
+        if(image_ok.style.display ="none",
          ok_text.style.display ="none",
          next_quiz_btn.style.display ="none",
          quiz_description.style.display ="none"){
@@ -171,6 +170,7 @@
         answer2.style.pointerEvents = "none"
         answer3.style.pointerEvents = "none"
         answer4.style.pointerEvents = "none"
+      score++;
       }else{}  
      } else {
       if(confirm('この回答で本当によろしいですか？')){
@@ -193,7 +193,6 @@
 
   answer2.addEventListener('click',()=>{
     if(quizzes[now_quiz].answer2 === quizzes[now_quiz].answer){
-      score++;
       if(confirm('この回答で本当によろしいですか？')){
       if(image_ok.style.display ="none",
          ok_text.style.display ="none",
@@ -208,6 +207,7 @@
         answer2.style.pointerEvents = "none"
         answer3.style.pointerEvents = "none"
         answer4.style.pointerEvents = "none"
+      score++;
       }else{}  
      } else {
       if(confirm('この回答で本当によろしいですか？')){
@@ -230,7 +230,6 @@
 
   answer3.addEventListener('click',()=>{
     if(quizzes[now_quiz].answer3 === quizzes[now_quiz].answer){
-      score++;
       if(confirm('この回答で本当によろしいですか？')){
       if(image_ok.style.display ="none",
          ok_text.style.display ="none",
@@ -245,6 +244,7 @@
         answer2.style.pointerEvents = "none"
         answer3.style.pointerEvents = "none"
         answer4.style.pointerEvents = "none"
+      score++;
       }else{} 
      } else {
       if(confirm('この回答で本当によろしいですか？')){
@@ -267,7 +267,6 @@
 
   answer4.addEventListener('click',()=>{
     if(quizzes[now_quiz].answer4 === quizzes[now_quiz].answer){
-      score++;
       if(confirm('この回答で本当によろしいですか？')){
       if(image_ok.style.display ="none",
          ok_text.style.display ="none",
@@ -282,6 +281,7 @@
         answer2.style.pointerEvents = "none"
         answer3.style.pointerEvents = "none"
         answer4.style.pointerEvents = "none"
+      score++;
       }else{} 
      } else {
       if(confirm('この回答で本当によろしいですか？')){
