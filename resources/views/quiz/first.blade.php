@@ -157,7 +157,7 @@
   answer1.addEventListener('click',()=>{
     if(quizzes[now_quiz].answer1 === quizzes[now_quiz].answer){
       score++;
-      alert('この回答で本当によろしいですか？');
+      confirm('この回答で本当によろしいですか？');
       if(image_ok.style.display ="none",
          ok_text.style.display ="none",
          next_quiz_btn.style.display ="none",
@@ -172,7 +172,7 @@
         answer3.style.pointerEvents = "none"
         answer4.style.pointerEvents = "none"
      } else {
-      alert('この回答で本当によろしいですか？');
+      confirm('この回答で本当によろしいですか？');
       if(image_ng.style.display ="none",
         ng_text.style.display ="none",
         next_quiz_btn.style.display ="none",
@@ -192,7 +192,7 @@
   answer2.addEventListener('click',()=>{
     if(quizzes[now_quiz].answer2 === quizzes[now_quiz].answer){
       score++;
-      alert('この回答で本当によろしいですか？');
+      confirm('この回答で本当によろしいですか？');
       if(image_ok.style.display ="none",
          ok_text.style.display ="none",
          next_quiz_btn.style.display ="none",
@@ -207,7 +207,7 @@
         answer3.style.pointerEvents = "none"
         answer4.style.pointerEvents = "none"
      } else {
-      alert('この回答で本当によろしいですか？');
+      confirm('この回答で本当によろしいですか？');
       if(image_ng.style.display ="none",
          ng_text.style.display ="none",
          next_quiz_btn.style.display ="none",
@@ -227,7 +227,7 @@
   answer3.addEventListener('click',()=>{
     if(quizzes[now_quiz].answer3 === quizzes[now_quiz].answer){
       score++;
-      alert('この回答で本当によろしいですか？');
+      confirm('この回答で本当によろしいですか？');
       if(image_ok.style.display ="none",
          ok_text.style.display ="none",
          next_quiz_btn.style.display ="none",
@@ -242,7 +242,7 @@
         answer3.style.pointerEvents = "none"
         answer4.style.pointerEvents = "none"
      } else {
-      alert('この回答で本当によろしいですか？');
+      confirm('この回答で本当によろしいですか？');
       if(image_ng.style.display ="none",
          ng_text.style.display ="none",
          next_quiz_btn.style.display ="none",
@@ -262,7 +262,7 @@
   answer4.addEventListener('click',()=>{
     if(quizzes[now_quiz].answer4 === quizzes[now_quiz].answer){
       score++;
-      alert('この回答で本当によろしいですか？');
+      confirm('この回答で本当によろしいですか？');
       if(image_ok.style.display ="none",
          ok_text.style.display ="none",
          next_quiz_btn.style.display ="none",
@@ -277,7 +277,7 @@
         answer3.style.pointerEvents = "none"
         answer4.style.pointerEvents = "none"
      } else {
-      alert('この回答で本当によろしいですか？');
+      confirm('この回答で本当によろしいですか？');
       if(image_ng.style.display ="none",
          ng_text.style.display ="none",
          next_quiz_btn.style.display ="none",
