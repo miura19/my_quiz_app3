@@ -3,15 +3,15 @@
   <div class="question">
       <div class="title">
         <p class='category'>カテゴリー</p>
-        <p id="category">カテゴリー名が入ります</p>
+        <p id="category"></p>
       </div>
       <div><h1 id='quizz_number'>第1問</h1></div>
-      <div><h2 id='question'>Question</h2></div>
+      <div><h2 id='question'></h2></div>
       <ul>
-        <li id='answer1' class="btn btn-primary answer_btn">answer1</li>
-        <li id='answer2' class="btn btn-primary answer_btn">answer2</li>
-        <li id='answer3' class="btn btn-primary answer_btn">answer3</li>
-        <li id='answer4' class="btn btn-primary answer_btn">answer4</li>
+        <li id='answer1' class="btn btn-primary answer_btn"></li>
+        <li id='answer2' class="btn btn-primary answer_btn"></li>
+        <li id='answer3' class="btn btn-primary answer_btn"></li>
+        <li id='answer4' class="btn btn-primary answer_btn"></li>
       </ul>
   </div>
   <div id="ok_text">正解だよ♪</div>
